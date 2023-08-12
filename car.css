@@ -1,0 +1,17 @@
+.but{
+    width: 90px;
+    height: 20px;
+    border: 1px black solid;
+}
+#but1{
+    background-color: lightgreen;
+}
+#but2{
+    background-color: lightcoral;
+}
+.para{
+    width: 150px;
+    height: 20px;
+    border: 1px black solid;
+    text-align: center;
+}
