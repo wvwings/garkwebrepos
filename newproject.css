@@ -35,5 +35,16 @@
 }
 .textnearcrug{
     position: relative;
-    left: 377px;
+    right: 377px;
+    top: 385px;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(144deg, #54D6FF 30%, #C275FF 54.69%, #F36AFF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
