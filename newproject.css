@@ -1,0 +1,39 @@
+.mainpage{
+    width: 1920px;
+    height:4544px ;
+    background-color:#0F1113;
+}
+.header{
+    position: relative;
+    width: 1920px;
+    height: 60px;
+    background-color: #0F1113
+}
+.rightpartinheader{
+    position: absolute;
+    top: 20px;
+    right: 188px;
+}
+.leftpartinheader{
+    position: absolute;
+    top: 20px;
+    left: 179px;
+}
+.logoinheader{
+    position: absolute;
+    top: 18px;
+    left: 873px;
+}
+.linehearheader{
+    position: relative;
+    top: 60px;
+}
+.crug{
+    position: absolute;
+    left: 936px;
+    top: 283px;
+}
+.textnearcrug{
+    position: relative;
+    left: 377px;
+}
