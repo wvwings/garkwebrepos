@@ -43,8 +43,45 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    background: linear-gradient(144deg, #54D6FF 30%, #C275FF 54.69%, #F36AFF 100%);
+    background: linear-gradient(144deg, #54D6FF 38%, #C275FF 54.69%, #F36AFF 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+}
+.text{
+    color: var(--main-white, #FFF);
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+
+}
+.ft{
+    color: #C1ABFF;
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 33.6px */
+}
+.boxfortext{
+    position: relative;
+    width: 440px;
+    left: 408px;
+    top: 420px;
+}
+.buttonandertext{
+    margin-top: 460px;
+    margin-left: 408px;
+    width: 300px;
+    height: 60px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: linear-gradient(144deg, #54D6FF 38%, #C275FF 54.69%, #F36AFF 100%);
+
+
+    
+
 }
