@@ -80,8 +80,9 @@ line-height: 140%; /* 33.6px */
 
     border-radius: 10px;
     background: linear-gradient(144deg, #54D6FF 38%, #C275FF 54.69%, #F36AFF 100%);
-
-
-    
-
+}
+.logo{
+    position: absolute;
+    top: 17px;
+    left: 873px;
 }
