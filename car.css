@@ -231,7 +231,6 @@ select {
 .main_contact{
     width: 1207px;
     height: 615px;
-    background-color: #151d25;
     margin: auto;
 }
 .name{
@@ -242,15 +241,16 @@ select {
     font-weight: 600;
     line-height: 120%; /* 19.2px */
     text-transform: capitalize;
-    position: absolute;
-    left: 671px;
     margin-top: 46px;
+    margin-right: 1444px;
 }
 .box1_contact{
     width: 1207px;
     height: 50px;
-    background-color: #151D25;
-    margin-top: 66px;
+    border-radius: 5px;
+    border: 1px solid #151D25;
+    background: linear-gradient(90deg, #151D25 0%, #131618 100%);
+    
 }
 .email{
     color: #FFF;
@@ -260,10 +260,75 @@ select {
     font-weight: 600;
     line-height: 120%; /* 19.2px */
     text-transform: capitalize;
-    position: absolute;
-    left: 671px;
-    margin-top: 140px;
+    margin-top: 27px;
+    margin-right: 1444px;
+    margin-bottom: 15px;
 
+}
+.box2_contact{
+    width: 1207px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #151D25;
+    background: linear-gradient(90deg, #151D25 0%, #131618 100%);
+    
+}
+.message{
+    color: #FFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 19.2px */
+    text-transform: capitalize;
+    margin-top: 27px;
+    margin-right: 1444px;
+    margin-bottom: 15px;
+}
+.box3_contact{
+    width: 1207px;
+    height: 179px;
+    border-radius: 5px;
+    border: 1px solid #151D25;
+    background: linear-gradient(90deg, #151D25 0%, #131618 100%);
+    
+}
+.send{
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background: var(--2-g, linear-gradient(120deg, #BDB2FF 0%, #CE8FFF 100%));
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+}
+.sendd{
+    color: #0F1113;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    top: 22px;
+    left: 106px;
+}
+.linea{
+    width: 1205px;
+    height: 2px;
+    background-color: #151D25;
+    margin: auto;
+    margin-top: 69px;
+    border-radius: 5px;
+}
+.linear{
+        width: 1205px;
+    height: 2px;
+    background-color: #151D25;
+    margin: auto;
+    margin-top: 69px;
+    border-radius: 5px;
 }
 /* quests + contact */
 
