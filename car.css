@@ -1,3 +1,116 @@
+/*сітло фонарики бок*/
+body{
+    margin: 0;
+   
+}
+.box{
+    position: relative;
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 8080px;
+    
+}
+.s1{
+    position: absolute;
+    top: 1009px;
+    margin-left: -250px;
+    width: 460px;
+    height: 494px;
+    flex-shrink: 0;
+}
+.s2{
+    position: absolute;
+    top: 1217px;
+    right: -250px;
+    width: 460px;
+    height: 494px;
+    flex-shrink: 0;
+}
+.s3{
+    position: absolute;
+    top: 2508px;
+    margin-left: -250px;
+    width: 460px;
+    height: 494px;
+    flex-shrink: 0;
+}
+.s4{
+    position: absolute;
+    top: 2631px;
+    right: -250px;
+    width: 460px;
+    height: 494px;
+    flex-shrink: 0;
+}
+.s5{
+    position: absolute;
+    top: 4727px;
+    margin-left: -250px;
+    width: 460px;
+    height: 494px;
+    flex-shrink: 0;
+}
+.s6{
+    position: absolute;
+    top: 4817px;
+    right: -250px;
+    width: 460px;
+    height: 494px;
+    flex-shrink: 0;
+}
+.s7top{
+    position: absolute;
+    top: -204px;
+    margin-left: 228px;
+    width: 460px;
+height: 494px;
+transform: rotate(-65.598deg);
+flex-shrink: 0;
+}
+.s8top{
+    position: absolute;
+    top: -175px;
+    right: 252px;
+    width: 460px;
+    height: 494px;
+    transform: rotate(-20.421deg);
+    flex-shrink: 0;
+}
+.ph1{
+    position: absolute;
+    width: 254px;
+    height: 254px;
+    flex-shrink: 0;
+    margin-top: 14px;
+    margin-left: 0px;
+ 
+filter: blur(18.5px);
+}
+.ph2{
+    position: absolute;
+    width: 384px;
+    height: 384px;
+    flex-shrink: 0;
+    top: 69px;
+    right: 229px;
+    filter: blur(11px);
+}
+.lefthand{
+    width: 1010px;
+    height: 536px;
+    flex-shrink: 0;
+    margin-top: 538px;
+    margin-left:-175px;
+}
+.righthand{
+    position: absolute;
+    width: 965px;
+height: 470px;
+flex-shrink: 0;
+margin-top: 403px;
+right: -71px;
+}
 
 /* Указываем box sizing */
 *,
