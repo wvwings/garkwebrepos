@@ -111,13 +111,152 @@ flex-shrink: 0;
 margin-top: 403px;
 right: -71px;
 }
+.center{
+    gap: 86px;
+}
+.logo{
+    justify-content: center;
+    display: flex;
+    width: 749px;
+height: 749px;
+}
+.ph33{
+    position: absolute;
+    width: 749px;
+height: 749px;
+opacity: 0.23;
+filter: blur(71.5px);
+}
+.ph3{
+    width: 601px;
+height: 601px;
+flex-shrink: 0;
+}
+.ph4{
+    position: absolute;
+    width: 108px;
+height: 108px;
+flex-shrink: 0;
+opacity: 0.4;
+filter: blur(9px);
+margin-top: 285px;
+margin-left: 727px;
+}
+.ph5{
+    position: absolute;
+    width: 72px;
+height: 72px;
+flex-shrink: 0;
+opacity: 0.2;
+filter: blur(5px);
+margin-top: 312px;
+right: 819px;
+}
 
+
+.text{
+    margin-top:  138px;
+    align-self: center;
+    
+    display: inline-flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+}
+.t1{
+    text-align: center;
+font-family: Gilroy;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: linear-gradient(144deg, #54D6FF 0%, #C275FF 54.69%, #F36AFF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.t2{
+    width: 448px;
+color: var(--main-white, #FFF);
+text-align: center;
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 33.6px */
+}
+.t22{
+    color: #FC84FF;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+.t3{
+    color: #5B6978;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+}
+.t33{
+    color: #67C6FF;
+text-align: center;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 22.4px */
+}
+.buytoken{
+    width: 300px;
+height: 60px;
+border-radius: 10px;
+box-shadow: 0px 2px 12px 0px rgba(148, 180, 252, 0.37);
+}
+.buy{
+    font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+background: var(--gradient-1, linear-gradient(144deg, #FC84FF 0%, #54D1FA 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.head{
+    width: 2560px;
+height: 60px;
+border-bottom: 1px solid #151D25;
+background: #ff0000;
+display: flex;
+}
+.head1{
+margin-left:200px ;
+display: flex;
+gap:40px;
+}
+.ul{
+    display:flex;
+gap:40px;
+list-style: none;
+color: #54D6FF;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
 /* Указываем box sizing */
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
+
 
 /* Убираем внутренние отступы */
 ul[class],
