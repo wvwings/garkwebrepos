@@ -3,6 +3,6 @@ let cells = document.querySelectorAll(".probu")
 
 cells.forEach((cell)=>{
     cell.addEventListener('click', ()=>{
-
+        
     })
 })
