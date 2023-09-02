@@ -94,8 +94,6 @@ select {
     position: absolute;
     left: 668px;
     top: 139px;
-    text-align: center;
-    
 }
 .team2{
     width: 280px;
@@ -231,6 +229,10 @@ select {
     background: #151D25;
     position: absolute;
     top: 148px;
+}
+#team11{
+    text-align: center;
+    display: block;
 }
 /* partners */
 .main_partners{
