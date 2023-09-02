@@ -231,6 +231,9 @@ select {
     top: 148px;
 }
 #team11{
+    position: absolute;
+    left: 80px;
+    top: -60px;
     text-align: center;
     display: block;
 }
