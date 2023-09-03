@@ -85,15 +85,22 @@ select {
     font-weight: 700;
     line-height: normal;
 }
+.team_container{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 72px;
+}
 .team1{
     width: 280px;
     height: 215px;
     flex-shrink: 0;
     border: 1px solid #151D25;
     background: linear-gradient(180deg, #151D25 0%, #0F1113 100%);
-    position: absolute;
-    left: 668px;
-    top: 139px;
+    position: relative;
 }
 .team2{
     width: 280px;
@@ -101,9 +108,7 @@ select {
     flex-shrink: 0;
     border: 1px solid #151D25;
     background: linear-gradient(180deg, #151D25 0%, #0F1113 100%);
-    position: absolute;
-    left: 978px;
-    top: 139px;
+    position: relative;
 }
 .team3{
     width: 280px;
@@ -111,9 +116,7 @@ select {
     flex-shrink: 0;
     border: 1px solid #151D25;
     background: linear-gradient(180deg, #151D25 0%, #0F1113 100%);
-    position: absolute;
-    left: 1288px;
-    top: 139px;
+    position: relative;
 }
 .team4{
     width: 280px;
@@ -121,9 +124,7 @@ select {
     flex-shrink: 0;
     border: 1px solid #151D25;
     background: linear-gradient(180deg, #151D25 0%, #0F1113 100%);
-    position: absolute;
-    left: 1598px;
-    top: 139px;
+    position: relative;
 }
 .imya_team1{
     color: #FFF;
